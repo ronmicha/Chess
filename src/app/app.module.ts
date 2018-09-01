@@ -6,6 +6,9 @@ import { MaterialModule } from './material.module'
 
 // Components
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
+
+// Services
 
 
 @NgModule({
@@ -15,7 +18,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
